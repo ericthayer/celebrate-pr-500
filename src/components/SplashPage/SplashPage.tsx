@@ -236,7 +236,7 @@ export default function SplashPage() {
             opacity: reducedMotion ? 1 : 0,
           }}
         >
-          Five hundred merged pull requests — a testament to our team's dedication,
+          Five hundred created pull requests — a testament to our team's dedication,
           collaboration, and relentless pursuit of great software.
         </Typography>
 
