@@ -31,6 +31,33 @@ export default function HeroNumber({ paused = false }: HeroNumberProps) {
     >
       <Box
         aria-hidden="true"
+        component="img"
+        src="/icon-cobank.svg"
+        sx={{
+          position: 'absolute',
+          width: { xs: 180, sm: 260, md: 360, lg: 440 },
+          height: { xs: 180, sm: 260, md: 360, lg: 440 },
+          objectFit: 'contain',
+          opacity: 0.08,
+          zIndex: 0,
+          pointerEvents: 'none',
+          animation: reducedMotion
+            ? 'none'
+            : 'logo-drift 18s ease-in-out infinite',
+          transformOrigin: 'center center',
+          filter: 'blur(0.5px) saturate(0.5) hue-rotate(120deg) brightness(1.4)',
+          '@keyframes logo-drift': {
+            '0%':   { transform: 'scale(1)    rotate(0deg)   translateY(0px)',   opacity: 0.08  },
+            '25%':  { transform: 'scale(1.04) rotate(2deg)   translateY(-8px)',  opacity: 0.10  },
+            '50%':  { transform: 'scale(1.06) rotate(0deg)   translateY(-4px)',  opacity: 0.11  },
+            '75%':  { transform: 'scale(1.03) rotate(-2deg)  translateY(-10px)', opacity: 0.09  },
+            '100%': { transform: 'scale(1)    rotate(0deg)   translateY(0px)',   opacity: 0.08  },
+          },
+        }}
+      />
+
+      <Box
+        aria-hidden="true"
         sx={{
           position: 'absolute',
           width: { xs: 260, sm: 360, md: 480 },
