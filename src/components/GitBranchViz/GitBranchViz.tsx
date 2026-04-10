@@ -105,7 +105,7 @@ export default function GitBranchViz() {
         </text>
         <text x="240" y="84" textAnchor="middle" fill={green} fontSize="9" fontFamily="monospace" opacity="0.7"
           style={reducedMotion ? {} : { opacity: 0, animation: 'fade-in 0.5s ease forwards', animationDelay: '1.6s' }}>
-          fix/celebration
+          perf/celebration
         </text>
       </svg>
     </Box>
