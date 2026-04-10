@@ -220,7 +220,7 @@ export default function SplashPage() {
             opacity: reducedMotion ? 1 : 0,
           }}
         >
-          Merged Pull Requests
+          Pull Requests
         </Typography>
 
         <Typography
