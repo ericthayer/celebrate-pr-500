@@ -12,7 +12,7 @@ import PauseIcon from '@mui/icons-material/PauseCircleOutline';
 import PlayIcon from '@mui/icons-material/PlayCircleOutline';
 import CodeIcon from '@mui/icons-material/Code';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
-import VisibilityIcon from '@mui/icons-material/Visibility';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import CelebrationIcon from '@mui/icons-material/Celebration';
 import GroupIcon from '@mui/icons-material/Group';
 import ParticleField from '../ParticleField/ParticleField';
@@ -346,7 +346,7 @@ export default function SplashPage() {
             variant="contained"
             color="primary"
             size="large"
-            startIcon={<VisibilityIcon />}
+            startIcon={<GitHubIcon />}
             sx={{
               px: 4,
               py: 1.5,
