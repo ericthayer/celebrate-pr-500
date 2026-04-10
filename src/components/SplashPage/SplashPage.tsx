@@ -347,6 +347,10 @@ export default function SplashPage() {
             color="primary"
             size="large"
             startIcon={<GitHubIcon />}
+            href="https://github.com/cobank-acb/shd-agrikit-ui-lib"
+            target="_blank"
+            rel="noopener noreferrer"
+            component="a"
             sx={{
               px: 4,
               py: 1.5,
@@ -355,6 +359,7 @@ export default function SplashPage() {
               color: '#050b14',
               boxShadow: `0 0 24px rgba(0,212,255,0.35)`,
               transition: 'box-shadow 200ms, transform 150ms',
+              textDecoration: 'none',
               '&:hover': {
                 boxShadow: `0 0 40px rgba(0,212,255,0.55)`,
                 transform: 'translateY(-2px)',
