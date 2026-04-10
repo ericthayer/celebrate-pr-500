@@ -195,6 +195,7 @@ export default function SplashPage() {
             fontWeight: 700,
             letterSpacing: '0.08em',
             fontSize: '0.7rem',
+            alignItems: 'center',
             mb: 1,
             animation: reducedMotion ? 'none' : 'slide-up 0.6s ease forwards',
             opacity: reducedMotion ? 1 : 0,
