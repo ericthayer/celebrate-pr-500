@@ -232,8 +232,8 @@ export default function SplashPage() {
             textAlign: 'center',
             mt: 2,
             mb: 1,
-            maxWidth: 500,
-            fontSize: { xs: '0.9rem', sm: '1.125rem' },
+            maxWidth: 540,
+            fontSize: { xs: '1rem', sm: '1.125rem' },
             animation: reducedMotion ? 'none' : 'slide-up 0.6s 1.0s ease forwards',
             opacity: reducedMotion ? 1 : 0,
           }}
