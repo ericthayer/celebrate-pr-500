@@ -370,7 +370,7 @@ export default function SplashPage() {
             variant="outlined"
             color="primary"
             size="large"
-            startIcon={<CelebraationIcon />}
+            startIcon={<CelebrationIcon />}
             sx={{
               px: 4,
               py: 1.5,
