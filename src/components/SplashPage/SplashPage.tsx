@@ -28,11 +28,11 @@ const STATS = [
 
 const CODE_SNIPPETS = [
   { text: 'git merge --ff-only feat/pr-500', top: '12%', left: '3%', delay: '0.5s', duration: '18s' },
-  { text: 'git push -u origin feat/cb-toolbar-a11y', top: '20%', right: '4%', delay: '1.2s', duration: '22s' },
   { text: '✓ All checks passed', top: '35%', left: '2%', delay: '2s', duration: '20s' },
   { text: '$ npm run build ✓', top: '65%', right: '3%', delay: '0.8s', duration: '19s' },
+  { text: 'git push -u origin feat/cb-toolbar-a11y', top: '20%', right: '4%', delay: '1.2s', duration: '22s' },
   { text: 'Approved by 2 codeowners', top: '75%', left: '1%', delay: '1.5s', duration: '24s' },
-  { text: 'npm run chromatic', top: '82%', right: '5%', delay: '0.3s', duration: '21s' },
+  { text: '$ npm run chromatic', top: '82%', right: '5%', delay: '0.3s', duration: '21s' },
 ];
 
 export default function SplashPage() {
