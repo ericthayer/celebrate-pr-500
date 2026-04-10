@@ -14,8 +14,6 @@ import CodeIcon from '@mui/icons-material/Code';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import CelebrationIcon from '@mui/icons-material/Celebration';
-import RedeemIcon from '@mui/icons-material/Redeem';
-import StarIcon from '@mui/icons-material/Star';
 import GroupIcon from '@mui/icons-material/Group';
 import ParticleField from '../ParticleField/ParticleField';
 import HeroNumber from '../HeroNumber/HeroNumber';
@@ -373,6 +371,10 @@ export default function SplashPage() {
             color="primary"
             size="large"
             startIcon={<CelebrationIcon />}
+            href="https://teams.microsoft.com/l/chat/19:0a106740780744bebdd05ab1aff16578@thread.v2/conversations?context=%7B%22contextType%22%3A%22chat%22%7D"
+            target="_blank"
+            rel="noopener noreferrer"
+            component="a"
             sx={{
               px: 4,
               py: 1.5,
@@ -380,6 +382,7 @@ export default function SplashPage() {
               borderColor: 'rgba(0,212,255,0.4)',
               color: 'primary.main',
               transition: 'border-color 200ms, box-shadow 200ms, transform 150ms',
+              textDecoration: 'none',
               '&:hover': {
                 borderColor: 'primary.main',
                 boxShadow: `0 0 20px rgba(0,212,255,0.2)`,
