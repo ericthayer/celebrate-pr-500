@@ -80,6 +80,49 @@ export default function SplashPage() {
         }}
       />
 
+      <Box
+        component="a"
+        href="https://design.cobank.net"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="CoBank Design System"
+        sx={{
+          position: 'fixed',
+          top: 12,
+          left: 16,
+          zIndex: 100,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          p: 0.75,
+          borderRadius: 1.5,
+          border: '1px solid',
+          borderColor: 'rgba(255,255,255,0.08)',
+          bgcolor: 'rgba(13,26,43,0.7)',
+          backdropFilter: 'blur(8px)',
+          transition: 'border-color 200ms, background 200ms, box-shadow 200ms',
+          '&:hover': {
+            borderColor: 'rgba(102,179,96,0.5)',
+            bgcolor: 'rgba(13,26,43,0.9)',
+            boxShadow: '0 0 16px rgba(102,179,96,0.2)',
+          },
+          '&:focus-visible': {
+            outline: '2px solid',
+            outlineColor: 'primary.main',
+            outlineOffset: 2,
+          },
+        }}
+      >
+        <Box
+          component="img"
+          src="/icon-cobank.svg"
+          alt="CoBank"
+          width={32}
+          height={33}
+          sx={{ display: 'block' }}
+        />
+      </Box>
+
       <Tooltip title={paused ? 'Resume animations' : 'Pause animations'} placement="left">
         <IconButton
           onClick={handlePauseToggle}
