@@ -21,16 +21,16 @@ import { useReducedMotion } from '../../hooks/useReducedMotion';
 
 const STATS = [
   { icon: <MergeIcon fontSize="small" />, label: 'Pull Requests', value: '500' },
-  { icon: <CodeIcon fontSize="small" />, label: 'Code Reviews', value: '1,240+' },
-  { icon: <StarIcon fontSize="small" />, label: 'Commits Merged', value: '8,300+' },
-  { icon: <GroupIcon fontSize="small" />, label: 'Contributors', value: '24' },
-];
+  { icon: <CodeIcon fontSize="small" />, label: 'Code Reviews', value: '762' },
+  { icon: <StarIcon fontSize="small" />, label: 'Commits Merged', value: '381' },
+  { icon: <GroupIcon fontSize="small" />, label: 'Contributors', value: '39' },
+];  
 
 const CODE_SNIPPETS = [
   { text: 'git merge --ff-only feat/pr-500', top: '12%', left: '3%', delay: '0.5s', duration: '18s' },
   { text: '✓ All checks passed', top: '35%', left: '2%', delay: '2s', duration: '20s' },
   { text: '$ npm run build ✓', top: '65%', right: '3%', delay: '0.8s', duration: '19s' },
-  { text: 'git push -u origin feat/cb-toolbar-a11y', top: '20%', right: '4%', delay: '1.2s', duration: '22s' },
+  { text: 'git push -u origin feat/cb-toolbar', top: '20%', right: '4%', delay: '1.2s', duration: '22s' },
   { text: 'Approved by 2 codeowners', top: '75%', left: '1%', delay: '1.5s', duration: '24s' },
   { text: '$ npm run chromatic', top: '82%', right: '5%', delay: '0.3s', duration: '21s' },
 ];
