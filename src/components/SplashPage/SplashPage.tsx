@@ -12,6 +12,7 @@ import PauseIcon from '@mui/icons-material/PauseCircleOutline';
 import PlayIcon from '@mui/icons-material/PlayCircleOutline';
 import CodeIcon from '@mui/icons-material/Code';
 import StarIcon from '@mui/icons-material/Star';
+import CelebrationIcon from '@mui/icons-material/Celebration';
 import RedeemIcon from '@mui/icons-material/Redeem';
 import GroupIcon from '@mui/icons-material/Group';
 import ParticleField from '../ParticleField/ParticleField';
@@ -24,7 +25,7 @@ const STATS = [
   { icon: <GroupIcon fontSize="small" />, label: 'Contributors', value: '39' },
   { icon: <CodeIcon fontSize="small" />, label: 'Code Reviews', value: '764' },
   { icon: <MergeIcon fontSize="small" />, label: 'Commits Merged', value: '382' },
-  { icon: <RedeemIcon fontSize="small" />, label: 'Releases', value: '240' },
+  { icon: <StarIcon fontSize="small" />, label: 'Releases', value: '240' },
 ];  
 
 const CODE_SNIPPETS = [
