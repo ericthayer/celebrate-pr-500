@@ -363,7 +363,7 @@ export default function SplashPage() {
               '&:active': { transform: 'translateY(0)' },
             }}
           >
-            View All PRs
+            View Repo
           </Button>
 
           <Button
