@@ -26,6 +26,7 @@ export default function HeroNumber({ paused = false }: HeroNumberProps) {
         alignItems: 'center',
         justifyContent: 'center',
         my: { xs: 2, md: 3 },
+        overflow: 'visible',
       }}
     >
       <Box
@@ -70,8 +71,8 @@ export default function HeroNumber({ paused = false }: HeroNumberProps) {
         sx={{
           fontSize: { xs: '9rem', sm: '14rem', md: '18rem', lg: '22rem' },
           fontWeight: 900,
-          lineHeight: 1,
-          letterSpacing: '-0.06em',
+          lineHeight: 1.15,
+          letterSpacing: '-0.04em',
           fontVariantNumeric: 'tabular-nums',
           background: `linear-gradient(135deg, ${theme.palette.primary.light} 0%, ${theme.palette.primary.main} 40%, ${theme.palette.success.main} 100%)`,
           backgroundClip: 'text',
@@ -83,6 +84,8 @@ export default function HeroNumber({ paused = false }: HeroNumberProps) {
           position: 'relative',
           zIndex: 1,
           userSelect: 'none',
+          px: 1,
+          overflow: 'visible',
         }}
       >
         {count}
