@@ -20,9 +20,9 @@ import ConfettiEffect from '../ConfettiEffect/ConfettiEffect';
 import { useReducedMotion } from '../../hooks/useReducedMotion';
 
 const STATS = [
+  { icon: <CodeIcon fontSize="small" />, label: 'Code Reviews', value: '762' },
   { icon: <MergeIcon fontSize="small" />, label: 'Commits Merged', value: '381' },
   { icon: <StarIcon fontSize="small" />, label: 'Pull Requests', value: '500' },
-  { icon: <CodeIcon fontSize="small" />, label: 'Code Reviews', value: '760+' },
   { icon: <GroupIcon fontSize="small" />, label: 'Contributors', value: '39' },
 ];  
 
