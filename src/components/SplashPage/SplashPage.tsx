@@ -185,7 +185,7 @@ export default function SplashPage() {
         }}
       >
         <Chip
-          icon={<StarIcon />}
+          icon={<StarIcon fontSize="small" />}
           label="Team Achievement Unlocked"
           size="small"
           sx={{
