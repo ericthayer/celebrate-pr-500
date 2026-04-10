@@ -12,7 +12,6 @@ import PauseIcon from '@mui/icons-material/PauseCircleOutline';
 import PlayIcon from '@mui/icons-material/PlayCircleOutline';
 import CodeIcon from '@mui/icons-material/Code';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
-import VisibilityIcon from '@mui/icons-material/Visibility';
 import CelebrationIcon from '@mui/icons-material/Celebration';
 import RedeemIcon from '@mui/icons-material/Redeem';
 import StarIcon from '@mui/icons-material/Star';
@@ -348,7 +347,7 @@ export default function SplashPage() {
             variant="contained"
             color="primary"
             size="large"
-            startIcon={<VisibilityIcon />}
+            startIcon={<VisibIcon />}
             sx={{
               px: 4,
               py: 1.5,
