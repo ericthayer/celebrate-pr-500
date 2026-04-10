@@ -15,6 +15,7 @@ import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import CelebrationIcon from '@mui/icons-material/Celebration';
 import RedeemIcon from '@mui/icons-material/Redeem';
+import StarIcon from '@mui/icons-material/Star';
 import GroupIcon from '@mui/icons-material/Group';
 import ParticleField from '../ParticleField/ParticleField';
 import HeroNumber from '../HeroNumber/HeroNumber';
