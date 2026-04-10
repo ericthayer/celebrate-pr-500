@@ -194,7 +194,7 @@ export default function SplashPage() {
             borderColor: 'rgba(0,212,255,0.3)',
             fontWeight: 700,
             letterSpacing: '0.08em',
-            fontSize: '0.7rem',
+            fontSize: '0.875rem',
             alignItems: 'center',
             mb: 1,
             animation: reducedMotion ? 'none' : 'slide-up 0.6s ease forwards',
