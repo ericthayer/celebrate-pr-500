@@ -337,6 +337,7 @@ export default function SplashPage() {
             gap: 2,
             mt: 4,
             flexWrap: 'wrap',
+            alignItems: 'center',
             justifyContent: 'center',
             animation: reducedMotion ? 'none' : 'slide-up 0.6s 2.0s ease forwards',
             opacity: reducedMotion ? 1 : 0,
