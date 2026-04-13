@@ -334,6 +334,7 @@ export default function SplashPage() {
         <Box
           sx={{
             display: 'flex',
+            justifyContent: { xs: 'column', sm: 'row' },
             gap: 2,
             mt: 4,
             flexWrap: 'wrap',
