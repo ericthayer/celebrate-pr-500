@@ -354,7 +354,7 @@ export default function SplashPage() {
             rel="noopener noreferrer"
             component="a"
             sx={{
-              flex: '1 1 10rem',
+              flex: '1 1 15rem',
               px: 4,
               py: 1.5,
               fontSize: '0.9rem',
@@ -384,7 +384,7 @@ export default function SplashPage() {
             rel="noopener noreferrer"
             component="a"
             sx={{
-              flex: '1 1 10rem',
+              flex: '1 1 15rem',
               px: 4,
               py: 1.5,
               fontSize: '0.9rem',
