@@ -185,7 +185,6 @@ export default function SplashPage() {
         }}
       >
         <Chip
-          icon={<StarIcon fontSize="small" sx={{ fontSize: '16px !important' }} />}
           label="cobank-acb/shd-agrikit-ui-lib"
           size="small"
           sx={{
