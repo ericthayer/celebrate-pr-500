@@ -186,7 +186,7 @@ export default function SplashPage() {
       >
         <Chip
           icon={<StarIcon fontSize="small" sx={{ fontSize: '16px !important' }} />}
-          label="Team Achievement Unlocked"
+          label="cobank-acb/shd-agrikit-ui-lib"
           size="small"
           sx={{
             bgcolor: 'rgba(0,212,255,0.1)',
