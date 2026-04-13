@@ -354,7 +354,7 @@ export default function SplashPage() {
             rel="noopener noreferrer"
             component="a"
             sx={{
-              flex: '1 1 15rem',
+              flex: '1 1 12rem',
               px: 4,
               py: 1.5,
               fontSize: '0.9rem',
@@ -384,7 +384,7 @@ export default function SplashPage() {
             rel="noopener noreferrer"
             component="a"
             sx={{
-              flex: '1 1 15rem',
+              flex: '1 1 12rem',
               px: 4,
               py: 1.5,
               fontSize: '0.9rem',
@@ -392,6 +392,7 @@ export default function SplashPage() {
               color: 'primary.main',
               transition: 'border-color 200ms, box-shadow 200ms, transform 150ms',
               textDecoration: 'none',
+              wordBreak: 'nowrap',
               '&:hover': {
                 borderColor: 'primary.main',
                 boxShadow: `0 0 20px rgba(0,212,255,0.2)`,
